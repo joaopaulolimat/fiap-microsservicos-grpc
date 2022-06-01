@@ -1,4 +1,4 @@
-syntax="proto3"
+syntax="proto3";
 
 service GerenciarClientes{
     rpc ListarTodos(Empty) returns (ListarClientes){}
