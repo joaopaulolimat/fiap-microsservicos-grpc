@@ -91,5 +91,5 @@ server.addService(clientesProto.GerenciarClientes.service, {
 });
 
 server.bind("127.0.0.1:30043", grpc.ServerCredentials.createInsecure());
-console.log("Server running at http://127.0.0.1:30043");
+console.log("Server running at 127.0.0.1:30043");
 server.start();
